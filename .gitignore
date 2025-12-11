@@ -1,9 +1,5 @@
-# Environment variables (contains secrets!)
 .env
-
-# Spotify authentication cache
 .cache
-
 # Python
 __pycache__/
 *.py[cod]
@@ -13,13 +9,11 @@ __pycache__/
 venv/
 env/
 .venv/
-
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
-
 # OS
 .DS_Store
 Thumbs.db
