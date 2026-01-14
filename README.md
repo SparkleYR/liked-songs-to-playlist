@@ -4,8 +4,8 @@ Copy your Spotify liked songs into a regular playlist in the exact same chronolo
 
 ## what's this for?
 
-"Liked Songs" on Spotify is weird - it's not a real playlist, you can't share it, and you can't back it up. This script fixes that by copying all your liked songs into an actual playlist.
-This script keeps the songs in **chronological order** - oldest liked song first, newest last.
+"Liked Songs" on Spotify is weird as it's not a real playlist, you can't share it, and you can't back it up. This script fixes that by copying all your liked songs into an actual playlist.
+This script keeps the songs in **chronological order** - oldest liked song first, newest last. Creates private playlists by default.
 
 ## how to use
 
@@ -46,19 +46,14 @@ First time it'll open your browser to log in to Spotify. After that it'll
 
 ## features
 
-- ✅ Works with any number of songs (handles pagination)
-- ✅ Keeps chronological order (oldest → newest)
-- ✅ Skips duplicates when adding to existing playlists
-- ✅ Creates private playlists by default
-- ✅ Cross-platform
+- Works with any number of songs (handles pagination)
+- Keeps chronological order
+- Skips duplicates when adding to existing playlist
 
 ## faq
 
 **"Redirect URI mismatch" error?**  
 Make sure you use `http://127.0.0.1:8080` (not localhost)
-
-**Takes forever with lots of songs?**  
-Spotify's API has rate limits.
 
 **Can I run this multiple times?**  
 Yes, if you add to an existing playlist, it'll skip songs already there.
